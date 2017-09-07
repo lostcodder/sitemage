@@ -1,2 +1,2 @@
-# sitemage
+# SiteMage
 CMS for programmers
