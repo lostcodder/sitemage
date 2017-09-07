@@ -1,0 +1,2 @@
+# sitemage
+CMS for programmers
