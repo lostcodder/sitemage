@@ -9,7 +9,9 @@
   "preferGlobal": "true",
   "dependencies": {
     "dustjs-linkedin": "^2.7.5",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "nl2br": "0.0.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -24,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/lostcodder/sitemage/issues"
   },
-  "homepage": "https://github.com/lostcodder/sitemage#readme"
+  "homepage": "https://github.com/lostcodder/sitemage#readme",
+  "nodemonConfig": {
+    "ignore": [
+      "lib/precompiled.json"
+    ],
+    "delay": "2500"
+  }
 }

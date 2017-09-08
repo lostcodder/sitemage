@@ -10,6 +10,7 @@
             tree = new webix.ui({
                 container:"testA",
                 view:"tree",
+                select: true,
                 template:"{common.icon()} <span>#title#<span>",
                 url: '/api/nodes',
                 datatype:"json"
