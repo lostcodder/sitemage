@@ -1,6 +1,6 @@
 {
   "name": "sitemage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CMS for programmers",
   "bin": {
     "sitemage": "bin/sitemage.js"
