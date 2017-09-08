@@ -5,5 +5,5 @@ CMS for programmers
 via npm:
 
 ```
-npm install sitemage
+npm install -g sitemage
 ```
