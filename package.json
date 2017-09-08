@@ -5,9 +5,10 @@
   "bin": {
     "sitemage": "bin/sitemage.js"
   },
-  "main" : "./lib/index.js",
+  "main": "./lib/index.js",
   "preferGlobal": "true",
   "dependencies": {
+    "dustjs-linkedin": "^2.7.5",
     "express": "^4.15.4"
   },
   "devDependencies": {},

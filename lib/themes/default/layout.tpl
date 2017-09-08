@@ -1,0 +1,3 @@
+<html>
+{>"body.tpl"/}
+</html>
