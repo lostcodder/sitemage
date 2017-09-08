@@ -1,8 +1,16 @@
 {
   "name": "sitemage",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "CMS for programmers",
-  "main": "index.js",
+  "bin": {
+    "sitemage": "bin/sitemage.js"
+  },
+  "main" : "./lib/index.js",
+  "preferGlobal": "true",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/lostcodder/sitemage/issues"
   },
-  "homepage": "https://github.com/lostcodder/sitemage#readme",
-  "dependencies": {
-    "express": "^4.15.4"
-  }
+  "homepage": "https://github.com/lostcodder/sitemage#readme"
 }
