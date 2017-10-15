@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    color: #242729;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_menu {
+    width: 250px;
+    height: 1500px;
+    background-color: #32404e;
+}
+
+.left_menu_item {
+    height: 64px;
+}
+
+.left_menu_item_text {
+    height: 64px;
+    margin-left: 50px;
+    margin-right: 24px;
+    color: #adb3b8;
+    font-size: 14px;
+    line-height: 64px;
+    cursor: pointer;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+}
+
+.left_menu_container {
+    position: relative;
+    line-height: 17px;
+    width: 100%;
+}
+
+.toolbar {
+    height: 64px;
+}

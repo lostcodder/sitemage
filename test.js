@@ -1,7 +1,7 @@
 
 var nodemon = require('nodemon');
 nodemon({
-  script: 'start.js',
+  script: 'bin/sitemage.js',
   ext: 'js tpl',
   "delay": "500"
 });
